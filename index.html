@@ -211,8 +211,11 @@
         .navbar>.container-fluid{
             justify-content:end;
         }
-        .nav-link:hover{
+        .a:hover{
             color:red;
+        }
+        .active{
+            color:white;
         }
     </style>
 </head>
@@ -239,10 +242,10 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#Home">Home</a>
+                        <a class="nav-link active a" href="#Home">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        <a class="nav-link dropdown-toggle a" href="#" id="navbarDropdownMenuLink" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Services
                         </a>
@@ -259,7 +262,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact Us</a>
+                        <a class="nav-link a" href="#contact">Contact Us</a>
                     </li>
                 </ul>
             </div>
